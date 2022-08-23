@@ -1,0 +1,80 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+background-image: url(../image/sunset-1373171__480.webp);
+background-size: bottom right;
+background-position: center;
+font-family: sans-serif;
+}
+.Menu-ber{
+  background-color: rgb(230, 67, 67);  
+  text-align: center;
+}
+.Menu-ber ul{
+display: inline-flex;  
+list-style:none ;
+color: #fff;  
+}
+.Menu-ber ul li{
+width: 100px;
+margin: 15px;
+padding: 15px;
+}
+.Menu-ber ul li a{
+text-decoration: none;
+color: #fff;
+}
+.active,.Menu-ber ul li:hover{
+background: olive;
+border-radius: 3px;
+}
+.Menu-ber.fa{
+ margin-right: 8px; 
+}
+.sub-menu-1{
+display: none;
+}
+
+
+.Menu-ber ul li:hover .sub-menu-1{
+  display: block;
+  position: absolute;
+  background: rgb(0, 100, 0);
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.Menu-ber ul li:hover .sub-menu-1 ul{
+ display: block;
+ margin: 10px;
+}
+.Menu-ber ul li:hover .sub-menu-1 ul li{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+
+}
+.Menu-ber ul li:hover .sub-menu-1 ul li:last-child{
+  border-bottom: none;
+}
+.Menu-ber ul li:hover .sub-menu-1 ul li a:hover{
+  color:#b2ff00 ;
+}
+.fa-angle-right{
+  float:right;
+}
+.sub-mene-2{
+  display: none;
+}
+  .Hover-Me:hover .sub-mene-2{
+  position: absolute;
+  display: block;
+  margin-top:40px ;
+  margin-left:140px ;
+  background:rgb(230, 67, 67) ;
+}
